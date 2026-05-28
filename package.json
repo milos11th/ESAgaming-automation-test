@@ -1,0 +1,15 @@
+{
+  "name": "esagaming-api-tests",
+  "version": "1.0.0",
+  "description": "Create Product via API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.16.0"
+  }
+}
