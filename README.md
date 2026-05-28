@@ -1,21 +1,22 @@
-# API Testing - Postman + Newman
+# QA Automation Project
 
-## Test Case
+## Tools Used
+- Cypress
+- Postman
+- Newman
 
-Create Product via API
+## Cypress Test
+Automated login test for Practice Software Testing website.
 
-## Tool
+Run Cypress:
+npm install
+npx cypress open
 
-Postman + Newman
+## API Test
+Postman collection for product creation API testing.
 
-## How to run tests
-
-1. Install Newman:
-   npm install -g newman
-
-2. Run collection:
-   newman run "collection.json"
+Run Newman:
+newman run "collection.json"
 
 ## Notes
-
-API returns 500 error instead of 201 Created, which is logged as a potential backend issue.
+API returns 500 Internal Server Error during product creation.
